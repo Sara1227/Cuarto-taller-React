@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+//Ejercicio 1: Manejo de eventos, ButtonClick,
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//import React from "react";
+// import ButtonClick from "./componentes/ButtonClick";
 
-export default App;
+// function App() {
+//   return (
+//     <div>
+//       <ButtonClick />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// Ejercicio 2: Creación y gestión de formularios, FormularioUsuario.
+
+// import React from "react";
+// import FormularioUsuario from "./componentes/FormularioUsuario";
+
+// function App() {
+//   return (
+//     <div>
+//       <FormularioUsuario /> {}
+//     </div>
+//   );
+// }
+// export default App;
+
+//Ejercicio 3: Lifting State Up.
+
+// import React, { useState } from "react";
+// import Formulario from "./componentes/Formulario";
+// import Resultado from "./componentes/Resultado";
+
+// function App() {
+//   const [numero, setNumero] = useState("");
+
+//   return (
+//     <div>
+//       <Formulario setNumero={setNumero} /> {}
+//       <Resultado numero={numero} /> {}
+//     </div>
+//   );
+// }
+
+// export default App;

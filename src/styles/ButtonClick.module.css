@@ -1,0 +1,14 @@
+/*src/styles/ButtonClick.module.css */
+.button {
+    padding: 10px 20px;
+    background-color: rgb(241, 28, 160);
+    color: white;
+    border: none;
+    border-radius : 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+background-color: rgb(241, 28, 160);;
+}
+
